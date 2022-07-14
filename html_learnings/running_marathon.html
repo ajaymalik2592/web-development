@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Running Marathon</title>
+</head>
+
+<body>
+
+    <h1> Race Registration!</h1>
+
+    <form>
+
+        <div>
+            <label for="first_name">First Name</label>
+            <input type="text" id="first_name" name="first_name">
+
+
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="last_name">
+
+        </div>
+
+
+
+        Select a Race:
+
+        <div>
+
+            <div>
+                <input type="radio" id="dewey" name="race" value="dewey">
+                <label for="dewey">Run 5K</label>
+
+            </div>
+            <input type="radio" id="louie" name="race" value="louie">
+            <label for="louie">Half Marathon</label>
+            <div>
+
+            </div>
+
+
+            <div>
+                <input type="radio" id="louie" name="race" value="louie">
+                <label for="louie">Full Marathon</label>
+            </div>
+
+
+        </div>
+
+
+
+
+        <label for="age">select age group:</label>
+        <select id="age" name="age">
+            <option value="under-10">under-10</option>
+            <option value="10-12">10-12</option>
+            <option value="12-30">12-30</option>
+            <option value="30-50">30-50</option>
+            <option value="old">old</option>
+        </select>
+
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="dewey" name="password" placeholder="password" required minlength="10"
+                maxlength="50" pattern="[0-9]{11}">
+
+        </div>
+
+
+        <button type="menu">Register</button>
+    </form>
+
+</body>
+
+</html>
